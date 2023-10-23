@@ -1,72 +1,275 @@
 body {
-    background-image: url(./assets/img/sfondo.png);
-    margin: 0;
+  background-image: url(./assets/img/sfondo.png);
+  margin: 0;
 }
 
 .contenitore {
-    background-color: rgb(16, 134, 202);
-    width: 450px;
-    height: 350px;
-    margin-top: 2rem;
-    margin-inline: auto;
+  background-color: rgb(16, 134, 202);
+  width: 450px;
+  height: 350px;
+  margin-top: 2rem;
+  margin-inline: auto;
 }
 
 .first-image {
-    object-fit: cover;
-    text-align: center;
-    padding-top: 50px;
+  object-fit: cover;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .header {
-    text-align: center;
+  text-align: center;
 }
 
 .first-words {
-    color: white;
-    font-size: 1.3rem;
-    padding: 40px;
+  color: white;
+  font-size: 1.3rem;
+  padding: 40px;
 }
 
 .first-paragraphs {
-    line-height: 55px;   
-     margin-bottom: 3x; 
+  line-height: 55px;
+  margin-bottom: 3x;
 }
 
 .contenitore-2 {
-    background-color: white;
-    width: 450px;
-    height: 1600px;
-    margin-top: 2rem;
-    margin-inline: auto;
-    font-size: 1.3rem;
+  background-color: white;
+  width: 450px;
+  height: 100;
+  margin-top: 2rem;
+  margin-inline: auto;
+  font-size: 1.3rem;
 }
 
 .h1-1 {
-    font-size: 2.5rem;
-    font: bold;
-   padding-top: 1em;
+  font-size: 2.5rem;
+  font: bold;
+  padding-top: 1em;
 }
 
 .h3-1 {
-    color: gray;
+  color: gray;
 }
 
 .first-list {
-    padding-left: 2rem;
+  padding-left: 2rem;
 }
 
 .second-list {
-    padding-left: 2rem;
+  padding-left: 2rem;
 }
 
 .table {
-   border: 1px;
-   display: table;
-   border-collapse: separate;
-   box-sizing: border-box;
+  border: 1px;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+}
+
+.table th {
+  color: white;
+  background-color: blue;
 }
 
 .video {
-    width: 100%;
+  width: 100%;
 }
 
+.news-box {
+  width: 450px;
+  height: 250px;
+  margin-top: 20px;
+  margin-inline: auto;
+  background-color: #e2e3e4;
+  text-align: center;
+}
+
+.h1-2 {
+  padding-top: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.form {
+  height: 100px;
+  text-align: right;
+}
+.h3-2 {
+  margin-top: 40px;
+  font-size: 1.5rem;
+}
+
+.main-form {
+  padding: 20px;
+}
+
+.insert-email {
+  float: left;
+  margin-top: 20px;
+  height: 25px;
+  margin-left: 20px;
+}
+
+.blue-button {
+  margin-top: 20px;
+  float: left;
+  height: 30px;
+  width: 70px;
+  color: white;
+  background-color: #4a69c2;
+}
+
+.h1-3 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.article-boxes {
+  width: 450px;
+  height: 100px;
+  margin-top: 20px;
+  margin-inline: auto;
+  background-color: #e2e3e4;
+  padding: 25px;
+}
+
+.links {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.categories {
+  line-height: 32px;
+  font-size: 1.3rem;
+}
+
+.dates {
+  margin-top: 25px;
+  float: right;
+  margin-left: 10px;
+}
+
+.fas.fa-calendar-alt {
+  margin-right: 5px;
+}
+
+.last-box {
+  width: 450px;
+  height: 150px;
+  margin-inline: auto;
+  background-color: #225364;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+.h1-4 {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-size: 1.7rem;
+}
+
+.h3-3 {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.h3-4 {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .contenitore {
+    width: 100%;
+    background-color: rgb(16, 134, 202);
+  }
+  .first-image {
+    text-align: left;
+    padding: 20px;
+  }
+  .contenitore-2 {
+    width: 100%;
+    font-size: 2rem;
+    margin-left: 10px;
+  }
+  .h1-1 {
+    font-size: 3rem;
+  }
+  .h3-1 {
+    font-size: 1.5rem;
+  }
+  .news-box {
+    width: 100%;
+  }
+  .main-form {
+    text-align: center;
+  }
+  .insert-email {
+    max-width: 50%;
+  }
+  .main-video {
+    width: 500px;
+    text-align: center;
+  }
+  .mini-button {
+    font-size: 1.5rem;
+  }
+  .article-boxes {
+    width: 75%;
+  }
+  .last-box {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contenitore {
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    background-color: rgb(16, 134, 202);
+  }
+  .first-image {
+    text-align: left;
+    padding: 20px;
+  }
+  .contenitore-2 {
+    width: 100%;
+    font-size: 2rem;
+    margin-left: 10px;
+  }
+  .h1-1 {
+    font-size: 3rem;
+  }
+  .h3-1 {
+    font-size: 1.5rem;
+  }
+  .news-box {
+    width: 100%;
+  }
+  .main-form {
+    text-align: center;
+  }
+  .insert-email {
+    max-width: 50%;
+  }
+  .main-video {
+    width: 500px;
+    text-align: center;
+  }
+  .mini-button {
+    font-size: 1.5rem;
+  }
+  .article-boxes {
+    width: 80%;
+  }
+  .last-box {
+    width: 100%;
+  }
+}
